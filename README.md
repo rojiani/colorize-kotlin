@@ -1,8 +1,9 @@
 Colorize Kotlin
 ===============
 
-Colorize terminal output
+Colorize terminal output.
 
+## Usage ##
 ```kotlin
 val msg = "Hello, World!"
 
@@ -17,5 +18,8 @@ println(
     "Foobar".colorize(color = AnsiColor.Purple, style = ColorStyle.Underlined)
 )
 ```
+
+![](assets/demo.png)
+
 
 TODO: samples module, upload lib, license
